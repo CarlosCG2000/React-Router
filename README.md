@@ -46,6 +46,7 @@ pnpm add 07-navegation-router
 ### 👉 **[https://carloscg2000.github.io/React-Router/](https://carloscg2000.github.io/React-Router/)**
 
 The documentation site includes:
+
 - 📖 **Complete API Documentation** - Detailed guides for all components
 - 💻 **Interactive Examples** - Try the router live in your browser
 - 🎯 **Basic Routing Example** - Get started quickly
@@ -478,30 +479,40 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📚 Resources & Links
 
 ### 🌐 Documentation
+
 - 📖 **[Official Documentation Site](https://carloscg2000.github.io/React-Router/)** - Complete guides and API reference
 - 💻 **[Interactive Examples](https://carloscg2000.github.io/React-Router/)** - Try the router in your browser
 - � **[Changelog](CHANGELOG.md)** - Version history and updates
 
 ### �📦 Package
+
 - 📦 **[npm Package](https://www.npmjs.com/package/07-navegation-router)** - Install from npm registry
 - � **[GitHub Repository](https://github.com/CarlosCG2000/React-Router)** - Source code
 
 ### 🤝 Community
+
 - �🐛 **[Report Issues](https://github.com/CarlosCG2000/React-Router/issues)** - Bug reports and feature requests
 - 💡 **[Contributing Guide](CONTRIBUTING.md)** - How to contribute
 - ⭐ **[Star on GitHub](https://github.com/CarlosCG2000/React-Router)** - Show your support!
 
 ### 🚀 CI/CD
+
 - ✅ **[CI Pipeline](https://github.com/CarlosCG2000/React-Router/actions/workflows/ci.yml)** - Automated testing
 - 📄 **[Pages Deployment](https://github.com/CarlosCG2000/React-Router/actions/workflows/pages.yml)** - Documentation site status
 
 ## 🙏 Acknowledgments
 
+- **Special thanks to [Midudev](https://github.com/midudev)** for his invaluable educational content and didactic approach to teaching React and modern web development. His tutorials and courses were a significant inspiration for this project.
 - Inspired by React Router and modern routing libraries
 - Built with modern React best practices and hooks
 - Powered by `path-to-regexp` for advanced pattern matching
 - Tested with Vitest and React Testing Library
 - Compiled with SWC for blazing-fast builds
+
+### 🎓 Learning Resources
+
+- [Midudev's YouTube Channel](https://www.youtube.com/@midudev) - Excellent React tutorials in Spanish
+- [Midudev's Courses](https://midu.dev) - In-depth web development courses
 
 ## 🔄 Version History
 
@@ -531,6 +542,7 @@ react, router, routing, spa, single-page-application, navigation, react-router, 
 ## 🌟 Ready to Get Started?
 
 Visit our **[Documentation Site](https://carloscg2000.github.io/React-Router/)** for:
+
 - 📖 Complete guides and tutorials
 - 💻 Live, interactive examples you can try in your browser
 - 🎯 Step-by-step implementation guides
@@ -540,6 +552,7 @@ Visit our **[Documentation Site](https://carloscg2000.github.io/React-Router/)**
 **Made with ❤️ by Carlos Caño Gómez**
 
 If you find this project useful, please consider:
+
 - ⭐ Starring the [GitHub Repository](https://github.com/CarlosCG2000/React-Router)
 - 📢 Sharing it with other developers
 - 🐛 [Reporting issues](https://github.com/CarlosCG2000/React-Router/issues) to help improve it
