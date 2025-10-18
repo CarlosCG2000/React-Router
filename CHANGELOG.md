@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.3] - 2025-10-18
+
+### Documentation
+
+- **GitHub Pages Highlighted**: Added prominent documentation section after installation
+- **Resources Organized**: Categorized resources (Documentation, Package, Community, CI/CD)
+- **Call-to-Action**: Added "Ready to Get Started?" section with documentation site links
+- **Acknowledgments**: Special thanks to Midudev for educational inspiration and didactic content
+- **Learning Resources**: Added links to Midudev's YouTube channel and courses
+
 ## [0.3.2] - 2025-10-18
 
 ### Documentation
