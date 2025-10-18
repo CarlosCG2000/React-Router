@@ -9,6 +9,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **TypeScript Definitions**: Full TypeScript support with `.d.ts` files
+- **Error Boundary Component**: `RouterErrorBoundary` for handling route errors gracefully
+- **Comprehensive Tests**: Expanded test suite from 4 to 28 tests covering all components
+  - Link component tests (10 tests)
+  - Route component tests (5 tests)
+  - Enhanced Router tests (13 tests)
+- **Interactive Examples**: 
+  - Basic routing example
+  - Dynamic routes with parameters
+  - Error handling examples
+- **Performance Benchmarks**: Benchmark suite for route matching and navigation
+- **Documentation Site**: GitHub Pages site with full documentation
+- **Navigate Function Export**: `navigate` function now exported from main entry point
 - PropTypes validation for all components
 - JSDoc documentation for better IDE support
 - MIT License file
@@ -20,11 +33,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Refactored Router component with useMemo for better performance
 - Cleaned up code with better comments and documentation
 - Updated peerDependencies to support React >= 18.0.0
+- Added `types` field to package.json exports
 
 ### Fixed
 
 - React linting warnings about ref usage during render
 - Component prop validation issues
+
+## [0.2.1] - 2025-10-18
+
+### Changed
+
+- Applied Prettier code formatting across all files
+
+## [0.2.0] - 2025-10-18
+
+### Added
+
+- PropTypes validation for Router, Route, and Link components
+- JSDoc documentation for all components
+- CHANGELOG.md for version tracking
+- CONTRIBUTING.md for contributor guidelines
+- GitHub Actions CI/CD workflow
+- Comprehensive examples in examples/ directory
+
+### Changed
+
+- Refactored Router component with useMemo for performance
+- Improved code quality and removed unnecessary comments
+- Updated peerDependencies to support React >=18.0.0
 
 ## [0.1.7] - 2025-10-18
 

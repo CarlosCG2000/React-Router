@@ -6,10 +6,12 @@
   "type": "module",
   "main": "lib/index.js",
   "module": "lib/index.js",
+  "types": "lib/index.d.ts",
   "exports": {
     ".": {
       "import": "./lib/index.js",
-      "require": "./lib/index.js"
+      "require": "./lib/index.js",
+      "types": "./lib/index.d.ts"
     },
     "./package.json": "./package.json"
   },
@@ -55,7 +57,8 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "bench": "node benchmarks/route-matching.bench.js"
   },
   "dependencies": {
     "path-to-regexp": "8.3.0"
