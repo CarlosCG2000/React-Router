@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+
 - PropTypes validation for all components
 - JSDoc documentation for better IDE support
 - MIT License file
@@ -15,22 +16,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enhanced package.json metadata for better npm discoverability
 
 ### Changed
+
 - Refactored Router component with useMemo for better performance
 - Cleaned up code with better comments and documentation
 - Updated peerDependencies to support React >= 18.0.0
 
 ### Fixed
+
 - React linting warnings about ref usage during render
 - Component prop validation issues
 
 ## [0.1.7] - 2025-10-18
 
 ### Fixed
+
 - Updated GitHub repository URL in README
 
 ## [0.1.6] - 2025-10-18
 
 ### Added
+
 - Professional README with comprehensive documentation
 - SEO keywords and metadata
 - Usage examples and API reference
@@ -38,27 +43,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.5] - 2025-10-18
 
 ### Fixed
+
 - Import paths now use .js extension instead of .jsx
 - Module resolution issues with compiled files
 
 ## [0.1.4] - 2025-10-18
 
 ### Changed
+
 - Updated build process to maintain folder structure
 - Added --strip-leading-paths to SWC compilation
 
 ### Fixed
+
 - Module not found errors for components
 - Incorrect file path structure in lib/
 
 ## [0.1.3] - 2025-10-18
 
 ### Changed
+
 - Improved prepare script to copy utils folder
 
 ## [0.1.2] - 2025-10-18
 
 ### Added
+
 - Initial npm publication
 - Basic routing functionality
 - Dynamic route parameters with path-to-regexp

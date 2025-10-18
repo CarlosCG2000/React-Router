@@ -86,6 +86,7 @@ Write clear, concise commit messages:
 - Reference issues and pull requests when relevant
 
 Examples:
+
 ```
 Add lazy loading support for routes
 Fix navigation bug in Safari

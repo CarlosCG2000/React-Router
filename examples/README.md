@@ -7,7 +7,7 @@ This directory contains example implementations of the Navigation Router library
 Simple routing with static paths:
 
 ```jsx
-import { Router, Route, Link } from '07-navegation-router';
+import { Router, Route, Link } from "07-navegation-router";
 
 function App() {
   return (
@@ -49,7 +49,7 @@ function NotFound() {
 Using route parameters:
 
 ```jsx
-import { Router, Route, Link } from '07-navegation-router';
+import { Router, Route, Link } from "07-navegation-router";
 
 function App() {
   return (
@@ -66,9 +66,15 @@ function ProductList() {
     <div>
       <h1>Products</h1>
       <ul>
-        <li><Link to="/products/1">Product 1</Link></li>
-        <li><Link to="/products/2">Product 2</Link></li>
-        <li><Link to="/products/3">Product 3</Link></li>
+        <li>
+          <Link to="/products/1">Product 1</Link>
+        </li>
+        <li>
+          <Link to="/products/2">Product 2</Link>
+        </li>
+        <li>
+          <Link to="/products/3">Product 3</Link>
+        </li>
       </ul>
     </div>
   );
@@ -76,7 +82,7 @@ function ProductList() {
 
 function ProductDetail({ routeParams }) {
   const { id } = routeParams;
-  
+
   return (
     <div>
       <h1>Product {id}</h1>
@@ -88,10 +94,12 @@ function ProductDetail({ routeParams }) {
 
 function UserPost({ routeParams }) {
   const { userId, postId } = routeParams;
-  
+
   return (
     <div>
-      <h1>User {userId} - Post {postId}</h1>
+      <h1>
+        User {userId} - Post {postId}
+      </h1>
       <Link to="/">Home</Link>
     </div>
   );
@@ -103,13 +111,13 @@ function UserPost({ routeParams }) {
 Code-splitting routes for better performance:
 
 ```jsx
-import { Router, Route, Link } from '07-navegation-router';
-import { lazy, Suspense } from 'react';
+import { Router, Route, Link } from "07-navegation-router";
+import { lazy, Suspense } from "react";
 
 // Lazy load components
-const Dashboard = lazy(() => import('./pages/Dashboard'));
-const Profile = lazy(() => import('./pages/Profile'));
-const Settings = lazy(() => import('./pages/Settings'));
+const Dashboard = lazy(() => import("./pages/Dashboard"));
+const Profile = lazy(() => import("./pages/Profile"));
+const Settings = lazy(() => import("./pages/Settings"));
 
 function App() {
   return (
@@ -147,18 +155,18 @@ function Home() {
 Navigating with JavaScript:
 
 ```jsx
-import { navigate } from '07-navegation-router';
+import { navigate } from "07-navegation-router";
 
 function LoginForm() {
   const handleSubmit = async (event) => {
     event.preventDefault();
-    
+
     // Perform login logic
     const success = await login();
-    
+
     if (success) {
       // Navigate to dashboard after successful login
-      navigate('/dashboard');
+      navigate("/dashboard");
     }
   };
 
@@ -177,7 +185,7 @@ function LoginForm() {
 Complex navigation structures:
 
 ```jsx
-import { Router, Route, Link } from '07-navegation-router';
+import { Router, Route, Link } from "07-navegation-router";
 
 function App() {
   return (
@@ -211,8 +219,12 @@ function BlogLayout() {
     <div>
       <h1>Blog</h1>
       <ul>
-        <li><Link to="/blog/first-post">First Post</Link></li>
-        <li><Link to="/blog/second-post">Second Post</Link></li>
+        <li>
+          <Link to="/blog/first-post">First Post</Link>
+        </li>
+        <li>
+          <Link to="/blog/second-post">Second Post</Link>
+        </li>
       </ul>
     </div>
   );
@@ -220,10 +232,10 @@ function BlogLayout() {
 
 function BlogPost({ routeParams }) {
   const { slug } = routeParams;
-  
+
   return (
     <article>
-      <h1>{slug.replace('-', ' ')}</h1>
+      <h1>{slug.replace("-", " ")}</h1>
       <Link to="/blog">Back to Blog</Link>
     </article>
   );
@@ -235,17 +247,26 @@ function BlogPost({ routeParams }) {
 Complete app with authentication and protected routes:
 
 ```jsx
-import { Router, Route, Link, navigate } from '07-navegation-router';
-import { useState, useEffect } from 'react';
+import { Router, Route, Link, navigate } from "07-navegation-router";
+import { useState, useEffect } from "react";
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   return (
     <Router>
-      <Route path="/" Component={() => <Home isAuthenticated={isAuthenticated} />} />
-      <Route path="/login" Component={() => <Login setAuth={setIsAuthenticated} />} />
-      <Route path="/dashboard" Component={() => <Dashboard isAuth={isAuthenticated} />} />
+      <Route
+        path="/"
+        Component={() => <Home isAuthenticated={isAuthenticated} />}
+      />
+      <Route
+        path="/login"
+        Component={() => <Login setAuth={setIsAuthenticated} />}
+      />
+      <Route
+        path="/dashboard"
+        Component={() => <Dashboard isAuth={isAuthenticated} />}
+      />
       <Route path="/profile/:username" Component={Profile} />
       <Route path="/404" Component={NotFound} />
     </Router>
@@ -269,7 +290,7 @@ function Login({ setAuth }) {
   const handleLogin = (e) => {
     e.preventDefault();
     setAuth(true);
-    navigate('/dashboard');
+    navigate("/dashboard");
   };
 
   return (
@@ -283,7 +304,7 @@ function Login({ setAuth }) {
 function Dashboard({ isAuth }) {
   useEffect(() => {
     if (!isAuth) {
-      navigate('/login');
+      navigate("/login");
     }
   }, [isAuth]);
 
@@ -299,7 +320,7 @@ function Dashboard({ isAuth }) {
 
 function Profile({ routeParams }) {
   const { username } = routeParams;
-  
+
   return (
     <div>
       <h1>Profile: {username}</h1>
