@@ -39,7 +39,22 @@ yarn add 07-navegation-router
 pnpm add 07-navegation-router
 ```
 
-## 🚀 Quick Start
+## � Documentation & Examples
+
+**🌐 Full documentation and interactive examples are available on our GitHub Pages site:**
+
+### 👉 **[https://carloscg2000.github.io/React-Router/](https://carloscg2000.github.io/React-Router/)**
+
+The documentation site includes:
+- 📖 **Complete API Documentation** - Detailed guides for all components
+- 💻 **Interactive Examples** - Try the router live in your browser
+- 🎯 **Basic Routing Example** - Get started quickly
+- 🔗 **Dynamic Routes Example** - Learn parameter handling
+- 🛡️ **Error Handling Example** - Robust error boundary patterns
+- ⚡ **Performance Benchmarks** - See how fast the router is
+- 📝 **TypeScript Support** - Full type definitions and examples
+
+## �🚀 Quick Start
 
 ```jsx
 import { Router, Route, Link } from "07-navegation-router";
@@ -460,14 +475,25 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - GitHub: [@CarlosCG2000](https://github.com/CarlosCG2000)
 - npm: [07-navegation-router](https://www.npmjs.com/package/07-navegation-router)
 
-## 📚 Resources
+## 📚 Resources & Links
 
-- 📖 [Full Documentation](https://carloscg2000.github.io/React-Router/)
-- 💻 [Live Examples](https://carloscg2000.github.io/React-Router/)
-- 📦 [npm Package](https://www.npmjs.com/package/07-navegation-router)
-- 🐛 [Report Issues](https://github.com/CarlosCG2000/React-Router/issues)
-- 📝 [Changelog](CHANGELOG.md)
-- 🤝 [Contributing Guide](CONTRIBUTING.md)
+### 🌐 Documentation
+- 📖 **[Official Documentation Site](https://carloscg2000.github.io/React-Router/)** - Complete guides and API reference
+- 💻 **[Interactive Examples](https://carloscg2000.github.io/React-Router/)** - Try the router in your browser
+- � **[Changelog](CHANGELOG.md)** - Version history and updates
+
+### �📦 Package
+- 📦 **[npm Package](https://www.npmjs.com/package/07-navegation-router)** - Install from npm registry
+- � **[GitHub Repository](https://github.com/CarlosCG2000/React-Router)** - Source code
+
+### 🤝 Community
+- �🐛 **[Report Issues](https://github.com/CarlosCG2000/React-Router/issues)** - Bug reports and feature requests
+- 💡 **[Contributing Guide](CONTRIBUTING.md)** - How to contribute
+- ⭐ **[Star on GitHub](https://github.com/CarlosCG2000/React-Router)** - Show your support!
+
+### 🚀 CI/CD
+- ✅ **[CI Pipeline](https://github.com/CarlosCG2000/React-Router/actions/workflows/ci.yml)** - Automated testing
+- 📄 **[Pages Deployment](https://github.com/CarlosCG2000/React-Router/actions/workflows/pages.yml)** - Documentation site status
 
 ## 🙏 Acknowledgments
 
@@ -502,6 +528,21 @@ react, router, routing, spa, single-page-application, navigation, react-router, 
 
 ---
 
+## 🌟 Ready to Get Started?
+
+Visit our **[Documentation Site](https://carloscg2000.github.io/React-Router/)** for:
+- 📖 Complete guides and tutorials
+- 💻 Live, interactive examples you can try in your browser
+- 🎯 Step-by-step implementation guides
+- 🛡️ Best practices and patterns
+- ⚡ Performance optimization tips
+
 **Made with ❤️ by Carlos Caño Gómez**
 
-If you find this project useful, please consider giving it a ⭐ on [GitHub](https://github.com/CarlosCG2000/React-Router)!
+If you find this project useful, please consider:
+- ⭐ Starring the [GitHub Repository](https://github.com/CarlosCG2000/React-Router)
+- 📢 Sharing it with other developers
+- 🐛 [Reporting issues](https://github.com/CarlosCG2000/React-Router/issues) to help improve it
+- 🤝 [Contributing](CONTRIBUTING.md) to the project
+
+**Happy routing! 🚀**
