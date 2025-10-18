@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Link component tests (10 tests)
   - Route component tests (5 tests)
   - Enhanced Router tests (13 tests)
-- **Interactive Examples**: 
+- **Interactive Examples**:
   - Basic routing example
   - Dynamic routes with parameters
   - Error handling examples
