@@ -1,6 +1,7 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest'
 import { render, screen, cleanup, fireEvent } from '@testing-library/react'
-import { Link, navigate } from './Link.jsx'
+import { Link } from './Link.jsx'
+import { navigate } from '../utils/navigation.js'
 
 describe('Link', () => {
     beforeEach(() => {

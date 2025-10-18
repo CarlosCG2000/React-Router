@@ -1,15 +1,5 @@
-import { EVENTS } from "../utils/consts"
 import PropTypes from 'prop-types'
-
-/**
- * Navigate to a new path programmatically
- * @param {string} path - The path to navigate to
- */
-export function navigate(path) {
-    window.history.pushState({}, '', path)
-    const navigationEvent = new Event(EVENTS.PUSHSTATE)
-    window.dispatchEvent(navigationEvent)
-}
+import { navigate } from '../utils/navigation.js'
 
 /**
  * Link component - Declarative navigation without page reload

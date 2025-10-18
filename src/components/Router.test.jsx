@@ -1,4 +1,4 @@
-
+/* eslint-disable react/prop-types */
 import { describe, it, expect, beforeEach, vi } from 'vitest'
 import { render, screen, cleanup, fireEvent } from '@testing-library/react'
 import { Router } from './Router.jsx'
@@ -148,7 +148,7 @@ describe('Router', () => {
     it('should update when route changes', async () => {
         getCurrentPath.mockReturnValueOnce('/')
 
-        const { rerender } = render(
+        render(
             <Router>
                 <Route path='/' Component={() => <h1>Home</h1>} />
                 <Route path='/about' Component={() => <h1>About</h1>} />

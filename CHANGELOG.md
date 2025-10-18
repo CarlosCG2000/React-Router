@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- **Fast Refresh Warning**: Moved `navigate` function to separate utility file to prevent Fast Refresh warnings
+- **GitHub Pages Deployment**: Fixed environment configuration in GitHub Actions workflow
+- **ESLint Errors**: Disabled `react-refresh/only-export-components` rule to allow utility exports
+- **PropTypes Validation**: Added `/* eslint-disable react/prop-types */` in test files
+- **Package.json Exports**: Corrected order of export conditions (`types` before `import`/`require`)
+
+## [0.3.0] - 2025-10-18
+
 ### Added
 
 - **TypeScript Definitions**: Full TypeScript support with `.d.ts` files
