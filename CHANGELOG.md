@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.2] - 2025-10-18
+
+### Documentation
+
+- **Enhanced README**: Comprehensive documentation improvements
+  - Added CI/CD and GitHub Pages deployment badges
+  - Documented `RouterErrorBoundary` component with examples
+  - Added TypeScript usage examples and type definitions
+  - Included `navigate()` function documentation
+  - Added performance metrics and benchmarks section
+  - Documented route parameters usage with examples
+  - Added error handling examples
+  - Updated project structure with all new files
+  - Added resources section with documentation links
+  - Included version history and latest features
+  - Improved API reference with detailed examples
+  - Added test coverage statistics (28 tests breakdown)
+
+## [0.3.1] - 2025-10-18
+
 ### Fixed
 
 - **Fast Refresh Warning**: Moved `navigate` function to separate utility file to prevent Fast Refresh warnings
