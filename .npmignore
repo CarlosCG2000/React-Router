@@ -1,6 +1,57 @@
-src
-public
-index.html
-pnpm-lock.yaml
+# Source files (already compiled to lib/)
+src/
+public/
+
+# Development files
+.vscode/
+.idea/
+*.log
+*.swp
+*.swo
+*~
+
+# Testing
+coverage/
+.nyc_output/
+**/*.test.jsx
+**/*.test.js
+**/*.spec.jsx
+**/*.spec.js
+
+# Build tools config
 vite.config.js
+vitest.config.js
+eslint.config.js
+.eslintrc*
+.prettierrc*
 .swcrc
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation (keep README.md)
+docs/
+
+# CI/CD
+.github/
+.travis.yml
+.circleci/
+
+# Examples and demos
+examples/
+demo/
+
+# Package manager
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Misc
+.DS_Store
+.env
+.env.local
+.env.*.local
+index.html

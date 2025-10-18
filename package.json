@@ -2,6 +2,7 @@
   "name": "07-navegation-router",
   "private": false,
   "version": "0.1.7",
+  "description": "A lightweight, modern, and powerful React routing library with declarative routing, dynamic parameters, lazy loading, and full browser history support",
   "type": "module",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -12,6 +13,41 @@
     },
     "./package.json": "./package.json"
   },
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "react",
+    "router",
+    "routing",
+    "spa",
+    "single-page-application",
+    "navigation",
+    "react-router",
+    "client-side-routing",
+    "declarative-routing",
+    "dynamic-routes",
+    "lazy-loading",
+    "history-api",
+    "browser-history",
+    "lightweight-router",
+    "minimal-router"
+  ],
+  "author": {
+    "name": "Carlos Caño Gómez",
+    "url": "https://github.com/CarlosCG2000"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosCG2000/React-Router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CarlosCG2000/React-Router/issues"
+  },
+  "homepage": "https://github.com/CarlosCG2000/React-Router#readme",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -25,8 +61,8 @@
     "path-to-regexp": "8.3.0"
   },
   "peerDependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
   },
   "devDependencies": {
     "@eslint/js": "9.38.0",
@@ -43,6 +79,7 @@
     "eslint-plugin-react-refresh": "0.4.24",
     "globals": "16.4.0",
     "happy-dom": "20.0.5",
+    "prop-types": "^15.8.1",
     "vite": "7.1.10",
     "vitest": "3.2.4"
   },
